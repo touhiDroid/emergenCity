@@ -54,7 +54,7 @@ class FirstFragment : Fragment() {
 
         webSettings.mixedContentMode = 0
         binding.wvMap.setLayerType(View.LAYER_TYPE_HARDWARE, null)
-        binding.wvMap.loadUrl("https://airquality.googleapis.com/v1/mapTypes/US_AQI/heatmapTiles/3/1/1?key=AIzaSyBGVj7k9HTCHqGgVpUPE28FWd-A5_8E1nE")
+        binding.wvMap.loadUrl("https://airquality.googleapis.com/v1/mapTypes/US_AQI/heatmapTiles/3/1/1?key=<GAPI_KEY>")
     }
 
 
